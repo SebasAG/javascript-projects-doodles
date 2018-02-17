@@ -1,7 +1,7 @@
 let r1 = 100, r2 = 100;
 let m1 = 10, m2 = 10;
 let th1, th2;
-let om1, om2;
+let om1 = 0.1, om2 = -0.2;
 
 let trace;
 
@@ -34,7 +34,7 @@ function draw() {
   line(x1, y1, x2, y2);
   ellipse(x2, y2, m2, m2);
 
-  th1 += 0.1;
-  th2 -= 0.2;
+  th1 += om1;
+  th2 -= om2;
 }
 
