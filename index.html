@@ -9,7 +9,6 @@
   
   <body>
     <h1>Javascript Projects and Doodles</h1>
-    <h3>By Sebas A.G.</h3>
 
     <p>
       This is a collection of small projects done in Javascript.
@@ -21,6 +20,7 @@
       <li><a href='3Dgifs'>3D gifs and other stuff.</a></li>
       <li><a href='gen_test'>Miscelaneous doodles.</a></li>
     </ul>
+
     <p>
       Many of these are attempts at challenges from
       <a href='https://www.youtube.com/watch?v=17WoOqgXsRM&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH'>this video series</a>.
@@ -28,6 +28,16 @@
       <a href='https://p5js.org'>p5.js library</a>.
     </p>
 
-    <a id='github-link' href='https://github.com/SebasAG'>GitHub</a>
+    <footer>
+      <p id='timestamp'>
+      By
+      <a href='https://github.com/SebasAG'>SebasAG</a>
+      || Last modified on:
+      </p>
+    </footer>
+    <script>
+document.getElementById('timestamp').innerHTML += document.lastModified;
+    </script>
   </body>
 </html>
+
